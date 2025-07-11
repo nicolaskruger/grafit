@@ -1,0 +1,21 @@
+# Node modules
+node_modules/
+
+# Diretório de build
+dist/
+
+# Arquivos de logs
+*.log
+
+# Arquivos de sistema/IDE
+.DS_Store
+.env
+*.env
+*.swp
+
+# Configurações do editor
+.vscode/
+.idea/
+
+# Output do TypeScript
+*.tsbuildinfo
