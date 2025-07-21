@@ -21,9 +21,7 @@ describe("eulerian - path", () => {
     grafh = biRefBuilder(grafh);
     const nodes = eulerian(grafh);
 
-
-
-    expect(nodes.filter(node => "🆎🆖🆑🆔".includes(node.body)))
-
+    expect(nodes.filter(node => "🆎🆖🆑🆔".includes(node.body)).length)
+      .toBe(4)
   })
 })
